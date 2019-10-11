@@ -42,7 +42,12 @@ p {
 button {
 	width: 122px;
 	height: 44px;
-	border-radius: 4;
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+}
+button:hover {
+	transition: all 1s ease-in;
 }
 a {
 	text-decoration: none !important;
@@ -99,9 +104,9 @@ header ul li a {
 	background-color: #ffffff;
 	width: 900px;
 	padding-top: 30px;
-	height: 622px;
-	padding-left: 40px;
-	border-radius: 4;
+	text-align: center;
+	height: 490px;
+	border-radius: 4px;
 	box-shadow: 0px 10px 24px rgba(0,0,0,10);
 	position: relative;
 	bottom: 155px;
@@ -114,7 +119,6 @@ header ul li a {
 .buyCTA {
 	background-color: #4F1980;
 	color: #ffffff;
-	border: none;
 }
 .buyCTAFooter button{
 	width: 174px;
@@ -124,7 +128,6 @@ header ul li a {
 }
 .first {
 	background-color: #4F1980 !important;
-	border: none;
 	color: #ffffff;
 }
 .first-second {
@@ -133,7 +136,12 @@ header ul li a {
 }
 .sellCryptoCTA {
 	background-color: #FAFAFC;
-	height: 230px;
+	height: 200px;
+	margin-top: -60px;
+	padding-top: 80px;
+}
+.howBitwayWorks {
+	margin-top: 50px;
 }
 .checkMark {
 	width: 60px;
@@ -142,27 +150,51 @@ header ul li a {
 .howBitwayWorks h4 {
 	margin-left: 65px;
 }
-.hallmarkPoints img {
-	width: 64px;
-	height: 64px;
+.hallmarkPoints {
+	margin-top: 100px;
 }
-.testimonial {
+.hallmarkPoints img {
+	width: 60px;
+	height: 60px;
+}
+.hall-bottom {
+	text-align: center;
+	margin: 50px 0px 100px 0px;
+
+}
+/*.testimonial {
 	background-color: #FAFAFC;
 	height: 650px;
-}
-.individualTestimony {
+}*/
+/*.individualTestimony {
 	background: url('../img/callout-2.png');
 	width: 600px;
 	height: 407px;
 	margin-left: 70px;
 	margin-right: -100px;
 	background-repeat: no-repeat;
+}*/
+.bF-footer {
+	height: 500px;
+	padding-top: 80px;
+	padding-bottom: 20px;
 }
 .beforeFooter img {
-	width: 300px;
+	width: 500px;
 	height: auto;
 }
 footer {
 	background-color: #FAFAFC;
-
+	padding-top: 50px;
+}
+footer h6 {
+	color: #000000;
+	text-align: left !important;
+	margin-left: -40px;
+}
+footer ul {
+}
+footer ul li a {
+}
+footer ul li {
 }
