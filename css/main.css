@@ -46,7 +46,13 @@ button {
 }
 header {
 	background-color: #4F1980;
-	height: 690px;
+	height: 670px;
+	color: #ffffff;
+	padding-top: 20px;
+}
+header .headerCTA {
+	background-color: transparent;
+	border: 1px solid #ffffff;
 	color: #ffffff;
 }
 nav h3 {
@@ -84,7 +90,9 @@ header ul li a {
 .tradeCoin {
 	background-color: #ffffff;
 	width: 892px;
-	height: 662px;
+	padding-top: 40px;
+	height: 622px;
+	padding-left: 20px;
 	border-radius: 4;
 	box-shadow: 0px 10px 24px rgba(0,0,0,10);
 	position: relative;
@@ -98,4 +106,35 @@ header ul li a {
 .sellCryptoCTA {
 	background-color: #FAFAFC;
 	height: 230px;
+}
+.checkMark {
+	width: 60px;
+	height: 60px;
+}
+.howBitwayWorks h4 {
+	margin-left: 65px;
+}
+.hallmarkPoints img {
+	width: 64px;
+	height: 64px;
+}
+.testimonial {
+	background-color: #FAFAFC;
+	height: 650px;
+}
+.individualTestimony {
+	background: url('../img/callout-2.png');
+	width: 600px;
+	height: 407px;
+	margin-left: 70px;
+	margin-right: -100px;
+	background-repeat: no-repeat;
+}
+.beforeFooter img {
+	width: 300px;
+	height: auto;
+}
+footer {
+	background-color: #FAFAFC;
+
 }
