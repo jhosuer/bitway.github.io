@@ -1,0 +1,101 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	font-family: Hind, sans-serif;
+}
+h1 {
+	font-size: 44px;
+	line-height: 64px;
+	font-weight: medium;
+}
+h2 {
+	font-size: 32px;
+	line-height: 48px;
+	font-weight: medium;
+}
+h3 {
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: medium;
+}
+h4 {
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: medium;
+}
+h5 {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: medium;
+}
+h6 {
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: medium;
+	letter-spacing: 0.75;
+}
+p {
+	font-size: 18px;
+	line-height: 32px;
+	font-weight: normal;
+}
+button {
+	width: 122px;
+	height: 44px;
+	border-radius: 4;
+}
+header {
+	background-color: #4F1980;
+	height: 690px;
+	color: #ffffff;
+}
+nav h3 {
+	font-weight: bold;
+}
+header ul {
+	list-style-type: none;
+}
+nav ul li {
+	display: inline;
+	margin-left: 30px;
+}
+header ul li a {
+	color: #ffffff;
+}
+.banner h1 {
+	margin-top: 84px;
+}
+#cta a button{
+	margin-right: 30px;
+}
+.banner img {
+	width: 300px;
+	margin-top: 15px;
+}
+.banner img:last-child {
+	margin-right: -100px;
+
+}
+.rightBanner ul li{
+	display: inline;
+}
+
+/*body Area*/
+.tradeCoin {
+	background-color: #ffffff;
+	width: 892px;
+	height: 662px;
+	border-radius: 4;
+	box-shadow: 0px 10px 24px rgba(0,0,0,10);
+	position: relative;
+	bottom: 155px;
+	z-index: 2;
+}
+.tradeCoin img.nameImage {
+	width: 30px;
+	height: 30px;
+}
+.sellCryptoCTA {
+	background-color: #FAFAFC;
+	height: 230px;
+}
