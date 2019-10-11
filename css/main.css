@@ -44,6 +44,14 @@ button {
 	height: 44px;
 	border-radius: 4;
 }
+a {
+	text-decoration: none !important;
+	color: #ffffff !important;
+}
+ul, li {
+	list-style-type: none;
+}
+
 header {
 	background-color: #4F1980;
 	height: 670px;
@@ -89,10 +97,10 @@ header ul li a {
 /*body Area*/
 .tradeCoin {
 	background-color: #ffffff;
-	width: 892px;
-	padding-top: 40px;
+	width: 900px;
+	padding-top: 30px;
 	height: 622px;
-	padding-left: 20px;
+	padding-left: 40px;
 	border-radius: 4;
 	box-shadow: 0px 10px 24px rgba(0,0,0,10);
 	position: relative;
@@ -102,6 +110,26 @@ header ul li a {
 .tradeCoin img.nameImage {
 	width: 30px;
 	height: 30px;
+}
+.buyCTA {
+	background-color: #4F1980;
+	color: #ffffff;
+	border: none;
+}
+.buyCTAFooter button{
+	width: 174px;
+}
+.makeCenter {
+	margin-top: 15px;
+}
+.first {
+	background-color: #4F1980 !important;
+	border: none;
+	color: #ffffff;
+}
+.first-second {
+	background-color: transparent !important;
+	border: 1px solid #4F1980 !important;
 }
 .sellCryptoCTA {
 	background-color: #FAFAFC;
