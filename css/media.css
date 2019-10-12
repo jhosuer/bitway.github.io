@@ -1,0 +1,174 @@
+/* media query */
+@media screen and (max-width: 768px) {
+	* {
+		max-width: 768px !important;
+	}
+	header {
+		max-width: 768px !important;
+		padding: 0;
+		margin: 0;
+		height: 450px;
+	}
+	.mobileNav {
+	display: inline;
+	}
+	.mobileNav div {
+		display: inline;
+	}
+	.mobileNav img {
+	width: 25px;
+	height: 25px;
+	}
+	.mobileNav button {
+		width: 122px !important;
+	}
+	header ul li a {
+		display: none !important;
+	}
+	h1 {
+		font-size: 24px;
+		line-height: 32px;
+	}
+	h2 {
+		font-size: 18px;
+		line-height: 24px;
+	}
+	h3 {
+		font-size: 16px;
+	}
+	h4 {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	button {
+		width: 174px;
+		font-size: 12px;
+	}
+	.logo h3 {
+		display: none !important;
+	}
+	.rightBanner {
+		display: none;
+	}
+	.banner {
+		text-align: center;
+	}
+	.banner h1 {
+		margin-top: 50px;
+	}
+	.tradeCoin {
+		box-shadow: none;
+		bottom: 0px;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 50px;
+		font-size: 14px;
+	}
+	.tradeCoin .top {
+		display: none;
+	}
+	.tradeCoin div {
+		padding-top: 5px;
+	}
+	.successChange {
+		color: green;
+	}
+	.buyCTAFooter h5 {
+		font-size: 14px;
+	}
+	#cta button {
+		width: 90%;
+		height: 33px;
+		margin-top: 20px;
+	}
+	.sellCryptoCTA {
+		margin-top: 321px;
+		padding: 30px 0px 50px 0px;
+	}
+	.sellCryptoCTA h2 {
+		text-align: center;
+		width: 72%;
+		margin: 0 auto;
+		line-height: 32px;
+	}
+	.sellCryptoCTA button {
+		width: 70%;
+		margin: 0 auto;
+		position: relative;
+		top: 10px;
+	}
+	.howBitwayWorks {
+		text-align: center;
+	}
+	.howBitwayWorks h3 {
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.howBitwayWorks h4 {
+		margin: 0 auto;
+	}
+	.howBitwayWorks .checkMark {
+		width: 40px;
+		height: 40px;
+		display: block;
+		margin: 0 auto;
+	}
+	.howBitwayWorksSub {
+		margin-top: -10px;
+	}
+	.howBitwayWorks .image {
+		text-align: center;
+		margin-top: 50px;
+	}
+	.howBitwayWorks .image img {
+		width: 350px;
+	}
+	.hallmarkPoints {
+		text-align: center;
+	}
+	.hallmarkPoints h2{
+		text-align: center;
+	}
+	.hall-bottom img {
+		width: 40px;
+		margin-top: 20px;
+	}
+	.hall-bottom h3 {
+		margin-top: -20px;
+	}
+	.bF-footer {
+		text-align: center;
+		margin-top: -80px;
+	}
+	.bF-footer img{
+		width: 300px;
+	}
+	.bF-footer h2 {
+		font-size: 16px;
+		margin-top: 30px;
+		line-height: 18px;
+	}
+	.bF-footer button {
+		margin-top: 10px;
+	}
+	footer {
+		text-align: center !important;
+		margin: 0 auto;
+	}
+	footer h5, footer h2 {
+		margin-left: 20px;
+		text-align: center;
+
+	}
+	footer ul {
+		margin-bottom: 50px;
+	}
+	footer h6 {
+		text-align: center !important;
+	/*	margin-left: 0%;*/
+		margin: 0 auto;
+	}
+	.leftSubFooter {
+		margin-left: 0px;
+	}
+}
