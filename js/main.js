@@ -55,7 +55,20 @@ var TxtType = function(el, toRotate, period) {
         document.body.appendChild(css);
     };
 
-    function mobileMegaMenu {
-        let mobileMenu = document.getElementById('mobileMenu');
-        
-    }
+        // let mobileMenu = document.getElementById('mobileMenu');
+      document.getElementById('hamburger').addEventListener("click", function(){ 
+        if(document.getElementById('mobileMenu').style.display == 'none') {
+            document.getElementById('mobileMenu').style.display = 'block';
+        } else {
+            document.getElementById('mobileMenu').style.display = 'none';
+        }
+       });
+    //     hamburger.addEventListener('click', function() {
+    //         if(mobileMenu.style.display == 'block') {
+    //         mobileMenu.style.display = 'block';
+    //         // return console.log('clicked-in');
+    //     } else {
+    //         mobileMenu.style.display = 'none';
+    //         // return console.log('clicked-out');
+    //     }
+    // });
